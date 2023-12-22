@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: "node"
+    tty: true
+    init: true
+    volumes:
+      - .:/home/node/react-training
+    ports:
+      - 3000:3000

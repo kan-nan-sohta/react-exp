@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TODO(JS)</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="input-area">
+      <input id="add-text" placeholder="input TODO" />
+      <button id="add-button">add</button>
+    </div>
+
+    <div class="incomplete-area">
+      <p class="title">Incompleted TODO</p>
+      <ul id="incomplete-list">
+        <li>
+          <div class="list-row">
+            <p class="todo-item">This is TODO</p>
+            <button>complete</button>
+            <button>delete</button>
+          </div>
+        </li>
+        <li>
+          <div class="list-row">
+            <p class="todo-item">This is TODO</p>
+            <button>complete</button>
+            <button>delete</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="complete-area">
+      <p class="title">Completed TODO</p>
+      <ul>
+        <li>
+          <div class="list-row">
+            <p class="todo-item">This was TODO</p>
+            <button>reverse</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
